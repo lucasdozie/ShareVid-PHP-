@@ -1,0 +1,18 @@
+Errors encountered while working on Laravel.
+
+-SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+ANS: Make sure your mysql is on,if on make sure the details are correct.
+
+-PHP Fatal error: Class 'App\Post' not found in eval()'d code on line 1.
+
+Ans: This error is common on the console(tinker)env.
+declare your app's namespace before any other business(retriving, updating e.t.c Data).
+
+-laravelCollective/hmtl class in serviceProviders not found
+
+Ans:After running these commands it started working respectively
+	composer dump:autoload
+	php artisan config:clear
+	php artisan clear-compiled.
+NB: the laravel is case sensitive e.g {!! FORM:: is different from {!! Form::

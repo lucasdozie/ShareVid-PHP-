@@ -37,7 +37,7 @@ Route::resource('tasks', 'tasksController');
 Route::resource('movies', 'moviesController');
 Route::resource('lists', 'listsController');
 Route::resource('users', 'usersController');
-//Route::get('/home',  ['uses' => 'welcomeController@index', 'middleware' => 'web'])->name('home');
-/*Route::controller([
-	'lists' => "listsController"
-	]);*/
+//user
+Route::auth();
+
+Route::get('/home', 'HomeController@index');

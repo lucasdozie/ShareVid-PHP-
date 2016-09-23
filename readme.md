@@ -10,7 +10,7 @@ Its help keep us in the loop of the latest movies out there, user gets notified 
 
 ##Installation
 
-    git clone https://github.com/bestmomo/laravel5-relations.git projectname
+    git clone https://github.com/lucasdozie/ShareVid-PHP-.git projectname
     cd projectname
     composer install
     php artisan key:generate
@@ -20,13 +20,13 @@ Its help keep us in the loop of the latest movies out there, user gets notified 
 
 ##Features
 
-   Movie page
-   Music page
-   Blog page
-   Custom Error Page 404
-   etc..
+    Movie page
+    Music page
+    Blog page
+    Custom Error Page 404
+    etc..
 
-Packages included
+###Packages included
 
     laravelcollective/html
     barryvdh/laravel-debugbar

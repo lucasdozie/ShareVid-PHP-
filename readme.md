@@ -8,11 +8,36 @@ ShareVid is a platform where Movies Trailer(scalable), music and other files can
 
 Its help keep us in the loop of the latest movies out there, user gets notified when a member upload a new trailer or song on the app. In other to aviod redundancy only verified users can upload.
 
+##Installation
+
+    git clone https://github.com/bestmomo/laravel5-relations.git projectname
+    cd projectname
+    composer install
+    php artisan key:generate
+    Create a database and inform .env (remove .example)
+    php artisan migrate to create tables
+    php artisan db:seed to populate tables
+
+##Features
+
+   Movie page
+   Music page
+   Blog page
+   Custom Error Page 404
+   etc..
+
+Packages included
+
+    laravelcollective/html
+    barryvdh/laravel-debugbar
+    patricktalmadge/bootstrapper
 
 
 ## Contributing
+
 NB: Its still at a beta stage, i will appriciate if you can contribute to it any way you can.
-Thank you for considering contributing to the sharevid! 
+Thanks in anticipation
+
 you can contact me at lucasatwon@gmail.com
 
 
